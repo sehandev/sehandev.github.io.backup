@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>SEHAN</title>
+    <link>http://sehandev.github.io/</link>
+    <description>Recent content on SEHAN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Oct 2019 21:50:45 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sehandev.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test2</title>
-      <link>http://example.org/post/test2/</link>
+      <link>http://sehandev.github.io/post/test2/</link>
       <pubDate>Sat, 19 Oct 2019 21:50:45 +0900</pubDate>
       
-      <guid>http://example.org/post/test2/</guid>
+      <guid>http://sehandev.github.io/post/test2/</guid>
       <description>신나용 hello world!</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>http://example.org/post/test/</link>
+      <link>http://sehandev.github.io/post/test/</link>
       <pubDate>Sat, 19 Oct 2019 21:42:25 +0900</pubDate>
       
-      <guid>http://example.org/post/test/</guid>
+      <guid>http://sehandev.github.io/post/test/</guid>
       <description>안뇽</description>
     </item>
     
