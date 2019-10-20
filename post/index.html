@@ -1,139 +1,244 @@
 <!DOCTYPE html>
 <html lang="ko-kr">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Posts - SEHAN</title>
-    
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-    <link href="https://sehandev.github.io/an-old-hope.min.css" rel="stylesheet">
-    <link href="https://sehandev.github.io/style.css" rel="stylesheet">
-    
-    <link rel="apple-touch-icon" href="https://sehandev.github.io/apple-touch-icon.png">
-    <link rel="icon" href="https://sehandev.github.io/favicon.ico">
-    
-    <meta name="generator" content="Hugo 0.58.3" />
-    
-    <link rel="alternate" type="application/atom+xml" href="https://sehandev.github.io/index.xml" title="SEHAN">
-    
-    
-    
-    <script>
-      function setTheme() {
-        const time = new Date();
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.58.3 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
 
-        const prev = localStorage.getItem('date');
-        const date = String(time.getMonth()) + '.' + String(time.getDate());
 
-        const now = time.getTime();
-        let sunrise;
-        let sunset;
+<meta property="og:description" content="">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Posts">
+<meta name="twitter:title" content="Posts">
+<meta property="og:url" content="https://sehandev.github.io/post/">
+<meta property="twitter:url" content="https://sehandev.github.io/post/">
+<meta property="og:site_name" content="SEHAN">
+<meta property="og:description" content="">
+<meta name="twitter:description" content="">
+<meta property="og:locale" content="en">
 
-        function setBodyClass() {
-          if (now > sunrise && now < sunset) return;
-          document.body.classList.add('dark');
-        }
 
-        if (date !== prev) {
-          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
-            .then(res => res.json())
-            .then(data => {
-              sunrise = data.sunrise.split(':').map(Number);
-              sunset = data.sunset.split(':').map(Number);
-            })
-            .catch(() => {
-              sunrise = [7, 0];
-              sunset = [19, 0];
-            })
-            .finally(() => {
-              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
-              sunset = time.setHours(sunset[0], sunset[1], 0);
-              setBodyClass();
-              localStorage.setItem('sunrise', sunrise);
-              localStorage.setItem('sunset', sunset);
-            });
-          localStorage.setItem('date', date);
-        } else {
-          sunrise = Number(localStorage.getItem('sunrise'));
-          sunset = Number(localStorage.getItem('sunset'));
-          setBodyClass();
-        }
-      }
-    </script>
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+
+    <title>Posts</title>
+
+    <link rel="icon" href="/favicon.png">
+    
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/post/index.xml">
+    
+
+    
+
+    <link rel="canonical" href="https://sehandev.github.io/post/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
   </head>
-  <body class="list">
-    <script>
-      setTheme();
-    </script>
-    <header class="header">
-      <nav class="nav">
-        
-        <p class="logo"><a href="https://sehandev.github.io/">SEHAN</a></p>
-        
-        
-      </nav>
-    </header>
-    <main class="main">
 
-
-
-
-
-<header class="page-header">
-  <h1>Posts</h1>
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/">SEHAN</a>
+  </div>
+  
 </header>
 
+      <nav id="sidebar" data-behavior="">
+  <div class="sidebar-container">
+    
+    <ul class="sidebar-buttons">
+      
 
+    </ul>
+    <ul class="sidebar-buttons">
+      
 
+    </ul>
+    <ul class="sidebar-buttons">
+      
 
+    </ul>
+  </div>
+</nav>
 
+      
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Test2</h2>
-  </header>
-  <section class="entry-content">
-   <p>신나용 hello world! 이거 별로인가..?...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>October 19, 2019</time>
-  </footer>
-  <a class="entry-link" href="https://sehandev.github.io/post/test2/"></a>
+      <div id="main" data-behavior=""
+        class="
+               hasCoverMetaIn
+               ">
+        <section class="postShorten-group main-content-wrap">
+          
+          
+          
+            
+
+  
+
+<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
+  <div class="postShorten-wrap">
+    
+    <div class="postShorten-header">
+      <h1 class="postShorten-title" itemprop="headline">
+        <a class="link-unstyled" href="https://sehandev.github.io/post/test2/">
+          Test2
+        </a>
+      </h1>
+      
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-10-19T21:50:45&#43;09:00">
+        
+   19, 2019
+
+      </time>
+    
+    
+  </div>
+
+    </div>
+    <div class="postShorten-excerpt" itemprop="articleBody">
+      
+        신나용 hello world! 이거 별로인가..?
+      
+      <p>
+        <a href="https://sehandev.github.io/post/test2/" class="postShorten-excerpt_link link"></a>
+        
+      </p>
+    </div>
+  </div>
+  
 </article>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Test</h2>
-  </header>
-  <section class="entry-content">
-   <p>Hi...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>October 19, 2019</time>
-  </footer>
-  <a class="entry-link" href="https://sehandev.github.io/post/test/"></a>
+          
+            
+
+  
+
+<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
+  <div class="postShorten-wrap">
+    
+    <div class="postShorten-header">
+      <h1 class="postShorten-title" itemprop="headline">
+        <a class="link-unstyled" href="https://sehandev.github.io/post/test/">
+          Test
+        </a>
+      </h1>
+      
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-10-19T21:42:25&#43;09:00">
+        
+   19, 2019
+
+      </time>
+    
+    
+  </div>
+
+    </div>
+    <div class="postShorten-excerpt" itemprop="articleBody">
+      
+        Hi
+      
+      <p>
+        <a href="https://sehandev.github.io/post/test/" class="postShorten-excerpt_link link"></a>
+        
+      </p>
+    </div>
+  </div>
+  
 </article>
 
+          
+          
 
-
-
-
-</main>
-<footer class="footer">
-  <span>&copy; 2019 <a href="https://sehandev.github.io/">SEHAN</a></span>
-  <span>&middot;</span>
-  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+        </section>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 SEHAN. 
+  </span>
 </footer>
-<script src="https://sehandev.github.io/highlight.min.js"></script>
-<script>
-  hljs.initHighlightingOnLoad();
+
+      </div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+    <h4 id="about-card-name"></h4>
+    
+    
+    
+  </div>
+</div>
+
+    
+
+    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
 </script>
-</body>
+
+
+
+
+
+    
+  </body>
 </html>
 
