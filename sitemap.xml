@@ -18,20 +18,42 @@
   </url>
   
   <url>
+    <loc>https://sehandev.github.io/categories/</loc>
+    <lastmod>2019-10-19T21:42:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sehandev.github.io/categories/etc/</loc>
+    <lastmod>2019-10-19T21:42:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sehandev.github.io/categories/subcategory/</loc>
+    <lastmod>2019-10-19T21:42:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sehandev.github.io/tags/tag1/</loc>
+    <lastmod>2019-10-19T21:42:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sehandev.github.io/tags/tag2/</loc>
+    <lastmod>2019-10-19T21:42:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sehandev.github.io/tags/</loc>
+    <lastmod>2019-10-19T21:42:25+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sehandev.github.io/2019/10/test/</loc>
     <lastmod>2019-10-19T21:42:25+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://sehandev.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sehandev.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sehandev.github.io/tags/</loc>
   </url>
   
 </urlset>
