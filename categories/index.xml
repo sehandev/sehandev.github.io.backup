@@ -6,10 +6,28 @@
     <description>Recent content in Categories on SEHAN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 09 Mar 2020 10:33:32 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 23:24:37 +0900</lastBuildDate>
     
 	<atom:link href="https://sehandev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>category</title>
+      <link>https://sehandev.github.io/categories/category/</link>
+      <pubDate>Sun, 26 Jul 2020 23:24:37 +0900</pubDate>
+      
+      <guid>https://sehandev.github.io/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subcategory</title>
+      <link>https://sehandev.github.io/categories/subcategory/</link>
+      <pubDate>Sun, 26 Jul 2020 23:24:37 +0900</pubDate>
+      
+      <guid>https://sehandev.github.io/categories/subcategory/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AWS</title>
